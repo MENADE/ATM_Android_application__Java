@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Guichet automatique ATM</string>
+
+<string name="cleNomClient">Nom du client : </string>
+<string name="clePrenomClient">Prenom du client : </string>
+
+
+<string name="cleNumCpt">Numéro de compte : </string>
+    <string name="cleSoldCheque">Solde compte Cheque : </string>
+    <string name="cleSoldEpargne">Solde compte Epargne : </string>
+
+
+
+</resources>

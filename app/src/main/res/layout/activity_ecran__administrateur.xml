@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".Ecran_Administrateur">
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="paiement_interet_click"
+        android:text="PAIMENT DES INTERETS" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="list_Cheque_Click"
+        android:text="COMPTES CHEQUES" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="list_epargn_Click"
+        android:text="COMPTES EPARGNES" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="list_Clients_Click"
+        android:text="LISTE DES CLIENTS" />
+</LinearLayout>
